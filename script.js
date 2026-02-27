@@ -66,7 +66,7 @@ function recommend() {
 
     if (recommendations.length === 0) {
         document.getElementById("result").innerHTML =
-            "⚠ Нет подходящих вариантов. Попробуйте изменить параметры.";
+            "Нет подходящих вариантов. Попробуйте изменить параметры.";
     } else {
         document.getElementById("result").innerHTML =
             "Рекомендуемая кухня: " + recommendations.join(", ");
