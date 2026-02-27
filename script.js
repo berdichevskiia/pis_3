@@ -69,6 +69,6 @@ function recommend() {
             "⚠ Нет подходящих вариантов. Попробуйте изменить параметры.";
     } else {
         document.getElementById("result").innerHTML =
-            "✅ Рекомендуемая кухня: " + recommendations.join(", ");
+            "Рекомендуемая кухня: " + recommendations.join(", ");
     }
 }
